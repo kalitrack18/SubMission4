@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelperDetail">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/help_main"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="50dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/help_icon"/>
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="50dp"
+                android:layout_height="35dp"
+                android:background="@drawable/icon_back"
+                android:layout_toRightOf="@id/help_main"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="80dp"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp">
+            <TextView
+                android:id="@+id/listView_hlp"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/listViewHelp"
+
+                android:textSize="16sp"/>
+            <ImageView
+                android:id="@+id/listView_icon"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/listview_icon"
+                android:layout_toRightOf="@id/listView_hlp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp">
+            <ImageView
+                android:id="@+id/cardview_icon"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:src="@drawable/cardview_icon"/>
+            <TextView
+                android:id="@+id/cardview_hlp"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/cardViewHelp"
+                android:textSize="16sp"
+                android:layout_toRightOf="@id/cardview_icon"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp">
+
+            <TextView
+                android:id="@+id/order_help"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/orderViewHelp"
+                android:textSize="16sp"/>
+
+            <ImageView
+                android:id="@+id/order_ic"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/order_icon"
+                android:layout_toRightOf="@id/order_help" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp">
+            <ImageView
+                android:id="@+id/delivery_icon"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:src="@drawable/delivery_icon"
+                 />
+
+            <TextView
+                android:id="@+id/delivery_text"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/deliveriHelp"
+                android:textSize="16sp"
+                android:layout_toRightOf="@id/delivery_icon"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

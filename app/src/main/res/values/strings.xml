@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Raja Molen Shop</string>
+    <string name="molen_name">Nama Molen</string>
+    <string name="molen_price">Harga Molen</string>
+    <string name="molen_detail">Detail Molen</string>
+    <string name="rp_15_000">Rp 15.000</string>
+    <string name="nama_tiap_molen">Nama tiap Molen</string>
+    <string name="isi_detail_molen">isi detail Molen</string>
+    <string name="pesan">Kami Menerima Jasa : \n 1. Pembuatan Program \n\t > Aplikasi Penjualan berbasis android \n\t > Aplikasi Kantor, Penjualan, Penghitungan, Kasir berbasis Komputer \n 2. Pembuatan Mesin Otomatisasi \n 3. Pembuatan Jam digital, dll</string>
+    <string name="listViewHelp">Pada List View klik salah satu item maka akan masuk pada menu detail scroll ke bawah dan silahkan pilih order untuk memulai belanja.</string>
+    <string name="cardViewHelp">Pada Card view silahkan klik tombol detail, maka akan di arahkan pada menu detail dan scroll ke bawah pilih tombol order untuk mulai memesan.</string>
+    <string name="orderViewHelp">Adapun Cara Pemesanan :\nMasukkan Nama  \t\t:\nAlamat pesanan \t\t:\nMolen/Paket yg dipesan \t\t:\nJumlah Pesanan \t\t:</string>
+    <string name="deliveriHelp">Kami Siaaap mengantaaaar\nAnda pesan hari ini,besok kami antar, tolong jangan tipu tipu ya gaees.. \nTerima Kasih..</string>
+</resources>

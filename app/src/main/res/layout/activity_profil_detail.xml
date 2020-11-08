@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".profil_detail">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true">
+
+            <ImageButton
+                android:id="@+id/ic_back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="30dp"
+                android:layout_toLeftOf="@id/tv_profil"
+                android:src="@drawable/ic_arrow_back" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/tv_profil"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/jimi_taufik" />
+
+            <TextView
+                android:id="@+id/tv_tittle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_profil"
+                android:text="J i m i  T a u f i k"
+                android:textAlignment="center"
+                android:textColor="@color/colorFollowers"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_subtittle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dicoding Challenge"
+                android:layout_centerVertical="true"
+                android:textAlignment="center"
+                android:layout_below="@+id/tv_tittle"
+                android:layout_marginTop="5dp"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/ui_design"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/profile_ui_design"
+            android:layout_marginBottom="10dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/id_profil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/ui_design">
+
+            <ImageView
+                android:id="@+id/ic_person"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_person_black_24dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My Profil "
+                android:textSize="25dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_profil2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/id_profil">
+
+            <ImageView
+                android:id="@+id/ic_person2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/name_card"
+                android:layout_marginLeft="45dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jimi Taufik Nuralia"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimary"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_profil3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/id_profil2">
+
+            <ImageView
+                android:id="@+id/ic_person3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/facebook"
+                android:layout_marginLeft="45dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jimi Taufik"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimary"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_profil4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/id_profil3">
+
+            <ImageView
+                android:id="@+id/ic_person4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/whatsapp"
+                android:layout_marginLeft="45dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="082282539799"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimary"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_profil5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/id_profil4">
+
+            <ImageView
+                android:id="@+id/ic_person5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/edge"
+                android:layout_marginLeft="45dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="jimi.23@students.amikom.ac.id"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimary"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/id_profil6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/id_profil5">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pesan : "
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pesan"
+                android:layout_marginLeft="20dp"
+                android:textSize="13sp"/>
+        </LinearLayout>
+
+    </TableLayout>
+
+</ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:startColor="#60696969"
+        android:endColor="#60FDFDFD"
+        android:gradientRadius="20dp"/>
+
+    // angka "60" setelah pagar, itu tambahan untuk transparansi
+    <stroke
+        android:dashGap="20dp"/>
+</shape>
